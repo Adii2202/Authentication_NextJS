@@ -1,6 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is an Authentication based site like only Login , Signup and forget and reset password is done through Emails.
+NextJS is used to implement this project.
 
-## Getting Started
 
 First, run the development server:
 
