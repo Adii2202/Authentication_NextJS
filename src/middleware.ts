@@ -6,7 +6,7 @@ export function middleware(request: NextRequest) {
   //  we need to configure the protected and the public paths
   const path = request.nextUrl.pathname
 
-  const isPublicPath = path === '/login' || path === '/signup'
+  const isPublicPath = path === '/login' || path === '/signup' || path==='/veridt'
   // token might be there isliye ? use kiya
   const token = request.cookies.get('token')?.value || ""
 
@@ -28,5 +28,6 @@ export const config = {
     '/profile',
     '/login',
     '/signup',
+    '/verifyemail'
   ],
 }
